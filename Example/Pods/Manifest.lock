@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - MXHomeVC (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - MXHomeVC (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  MXHomeVC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  MXHomeVC: b0ed473ab6da010dc39b049d70dba1b0afc4ad7f
+
+PODFILE CHECKSUM: fcf15bf4be4d74cb0b6379f5a0ea42c12abb9ae9
+
+COCOAPODS: 1.5.3

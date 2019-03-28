@@ -1,0 +1,6 @@
+framework module MXHomeVC {
+  umbrella header "MXHomeVC-umbrella.h"
+
+  export *
+  module * { export * }
+}
